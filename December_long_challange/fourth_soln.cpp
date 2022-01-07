@@ -29,7 +29,7 @@ int main() {
 	   {
 	    if ((x1==2 || x2==2) && (y1!=y2))
 	      {
-	       if(abs(y1-yking)>1 && abs(y2-yking)>1){
+	       if(std::abs(y1-yking)>1 && std::abs(y2-yking)>1){
 	               ans ="YES";
 	       }
 	       
@@ -39,7 +39,7 @@ int main() {
 	else if(xking==8)
 	{
 	    if ((x1==7 || x2==7) && (y1!=y2)){
-	       if(abs(y1-yking)>1 && abs(y2-yking)>1){
+	       if(std::abs(y1-yking)>1 && std::abs(y2-yking)>1){
 	             ans ="YES";
 	       }
 	           }
@@ -48,7 +48,7 @@ int main() {
 	 if(yking==1)
 	 {
 	    if ((y1==2 || y2==2) && (x1!=x2)){
-	      if(abs(x1-xking)>1 && abs(x2-xking)>1){
+	      if(std::abs(x1-xking)>1 && std::abs(x2-xking)>1){
 	          ans ="YES";
 	      }
 	     
@@ -59,7 +59,7 @@ int main() {
 	{
 	    if ((y1==7 || y2 ==7) && (x1!=x2))
 	    {
-	        if(abs(xking-x1)>1 && abs(xking-x2)>1){
+	        if(std::abs(xking-x1)>1 && std::abs(xking-x2)>1){
 	             ans ="YES";
 	        }
 	      
